@@ -247,10 +247,7 @@ footer a:hover{
      padding: 3px;
      margin-bottom: 1.6rem;
  }
- .title{
-     
-     
- }
+ 
  .title::after{
      content: "";
      position: absolute;
