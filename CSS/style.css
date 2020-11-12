@@ -1,0 +1,546 @@
+body{
+    background-color: #f5f5f5;
+     color: #4e4e4e;;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color: #1e1e1e;
+}
+#header{
+    height: 100vh;
+    background-image: url(../Images/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-image{
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay{
+
+    background-color: rgba(0, 0, 0, 0.609);
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar{
+    padding: 17px 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: white;
+ 
+    
+}
+.navbar-dark .navbar-nav .nav-link:hover::after{
+    color: white;
+    width: 40%;
+   
+    
+}
+.navbar-dark .navbar-nav .nav-item{
+
+    padding: 8px 10px 8px 8px;
+    position: relative;
+}
+.navbar-dark .navbar-nav .nav-link::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    bottom: 10px;
+    left: 17px;
+    background-color: white;
+    transition: width 0.4s;
+    
+
+
+}
+
+
+
+
+.navbar-brand{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+#header h1{
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 75px;
+    margin-bottom: 25px;
+    color: #f5f5f5;
+}
+
+
+#header strong::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+
+@keyframes typing{
+
+    1%{ content: "W|";}
+    2%{ content: "We|";}
+    3%{ content: "Web|";}
+    4%{ content: "Web D|";}
+    5%{ content: "Web De|";}
+    6%{ content: "Web Dev|";}
+    7%{ content: "Web Deve|";}
+    8%{ content: "Web Devel|";}
+    9%{ content: "Web Develo|";}
+    10%{ content: "Web Develop|";}
+    11%{ content: "Web Develope|";}
+    12%{ content: "Web Developer|";}
+    13%{ content: "Web Develope|";}
+    14%{ content: "Web Develop|";}
+    15%{ content: "Web Develo|";}
+    16%{ content: "Web Devel|";}
+    17%{ content: "Web Deve|";}
+    18%{ content: "Web Dev|";}
+    19%{ content: "Web De|";}
+    20%{ content: "Web D|";}
+    21%{ content: "Web |";}
+    22%{ content: "Web D|";}
+    23%{ content: "Web De|";}
+    24%{ content: "Web Des|";}
+    25%{ content: "Web Desi|";}
+    26%{ content: "Web Desig|";}
+    27%{ content: "Web Design|";}
+    28%{ content: "Web Designe|";}
+    29%{ content: "Web Designer|";}
+    30%{ content: "Web Designe|";}
+    31%{ content: "Web Design|";}
+    32%{ content: "Web Desig|";}
+    33%{ content: "Web Desi|";}
+    34%{ content: "Web Des|";}
+    35%{ content: "Web De|";}
+    36%{ content: "Web D|";}
+    37%{ content: "Web |";}
+    38%{ content: "We|";}
+    39%{ content: "W|";}
+    40%{ content: "F|";}
+    41%{ content: "Fr|";}
+    42%{ content: "Fro|";}
+    43%{ content: "Fron|";}
+    44%{ content: "Front|";}
+    45%{ content: "Fronte|";}
+    46%{ content: "Fronten|";}
+    47%{ content: "Frontend |";}
+    48%{ content: "Frontend D|";}
+    49%{ content: "Frontend De|";}
+    50%{ content: "Frontend Dev|";}
+    51%{ content: "Frontend Deve|";}
+    52%{ content: "Frontend Devel|";}
+    53%{ content: "Frontend Develo|";}
+    54%{ content: "Frontend Develop|";}
+    55%{ content: "Frontend Develope|";}
+    56%{ content: "Frontend Developer|";}
+    57%{ content: "Frontend Develope|";}
+    58%{ content: "Frontend Develop|";}
+    59%{ content: "Frontend Develo|";}
+    60%{ content: "Frontend Devel|";}
+    61%{ content: "Frontend Deve|";}
+    62%{ content: "Frontend Dev|";}
+    63%{ content: "Frontend De|";}
+    64%{ content: "Frontend D|";}
+    65%{ content: "Frontend |";}
+    66%{ content: "Fronten|";}
+    67%{ content: "Fronte|";}
+    68%{ content: "Front|";}
+    69%{ content: "Fron|";}
+    70%{ content: "Fro|";}
+    71%{ content: "Fr|";}
+    72%{ content: "F|";}
+    73%{ content: "|";}
+    74%{ content: "C|";}
+    75%{ content: "CE|";}
+    76%{ content: "CEO|";}
+    77%{ content: "CEO |";}
+    78%{ content: "CEO D|";}
+    79%{ content: "CEO De|";}
+    80%{ content: "CEO Dev|";}
+    81%{ content: "CEO DevF|";}
+    82%{ content: "CEO DevFo|";}
+    83%{ content: "CEO DevFol|";}
+    84%{ content: "CEO DevFoli|";}
+    85%{ content: "CEO DevFolio|";}
+    86%{ content: "CEO DevFoli|";}
+    87%{ content: "CEO DevFol|";}
+    88%{ content: "CEO DevFo|";}
+    89%{ content: "CEO DevF|";}
+    90%{ content: "CEO Dev|";}
+    91%{ content: "CEO De|";}
+    92%{ content: "CEO D|";}
+    93%{ content: "CEO |";}
+    94%{ content: "CEO|";}
+    95%{ content: "CE|";}
+    97%{ content: "C|";}
+    100%{ content: "|";}
+}
+
+#about .container{
+    background-color: white;
+}
+
+.personal-info p {
+    color: #4e4e4e;
+
+}
+.personal-info p span {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+
+}
+.w-85{
+    width: 85%;
+}
+.w-90{
+    width: 90%;
+}
+.p-title{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem; 
+}
+
+.skills span {
+    color: #4e4e4e;
+}
+  
+.skills .progress {
+    background-color: #cde1f8;
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem;
+ }
+  
+.skills .progress .progress-bar {
+    height: .7rem;
+    background-color: #0078ff;
+ }
+ .about-me{
+     position: relative;
+     padding: 3px;
+     margin-bottom: 1.6rem;
+ }
+ .title{
+     
+     
+ }
+ .title::after{
+     content: "";
+     position: absolute;
+     height: 3px;
+     width: 19.5%;
+     
+     bottom: 0;
+     left: 0;
+     background-color: #0078ff;
+ }
+.paragraph{
+    font-size: 1.25rem;
+    font-weight: 300;
+
+}
+.service-title h2{
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+.service-title p{
+    margin-bottom: 1rem;
+}
+.line{
+    height: 5px;
+    background-color: #0078ff;
+    width: 50px;
+}
+.card{
+    border-radius: 20px;
+    padding: 2.8rem 0.7rem;
+    margin-bottom: 2.5rem;
+}
+.card-text h3{
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    margin: 0;
+}
+.card-text p{
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0;
+}
+/* #cde1f8 */
+.card:hover .border-icon span{
+    color: #f5f5f5;
+    background-color:#0078ff ;
+    border-color: #cde1f8 ;
+}
+.border-icon{
+    width: 120px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border-icon span{
+    color: #1e1e1e;
+    padding: 0.8999999rem 1.2rem;
+    font-size: 3rem;
+    display: block;
+    border: 10px solid #0078ff;
+    font-weight: 100;
+    width: 100%;
+    border-radius: 50%;
+    transition: all 0.5s;
+    
+
+}
+#numbers{
+    background-image: url(../Images/counters-bg.jpg);
+}
+.numbers-layer{
+    background-color: rgba(0, 120, 255, 0.67) ;
+}
+.number-icon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border: 10px solid #cde1f8;
+    color: #f5f5f5;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+.p-numbers p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+
+}
+
+.plus-icon span{
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+    font-size: 1.1rem;
+    padding: 1.5px 4px;
+    font-weight: 100;
+    color: #0078ff;
+    border: 2px solid  #0078ff;
+    border-radius: 50%;
+
+}
+.port-item-details h6{
+    font-size: 1.2rem;
+}
+.port-item-details p{
+    font-size: 0.8rem ;
+}
+#work .container .row .col-md-4{
+    margin-top: 2rem;
+}
+.port-item{
+    cursor: pointer;
+    overflow: hidden;
+   
+}
+.port-item img{
+
+    transition: all 0.5s;
+}
+.port-item:hover img{
+    transform: scale(1.1,1.1);
+}
+.slider{
+    background-image: url(../Images/overlay-bg.jpg);
+}
+.client h4{
+
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    color: #cde1f8;
+}
+.client p{
+    font-size: 1.25rem;
+}
+.client .test-icon{
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: #0078ff;
+    font-size: 1.7rem;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+}
+.carousel-indicators li{
+
+    height: 8px;;
+   
+}
+.blog-item-details{
+    padding: 1.25rem;
+}
+.blog-item-details a{
+
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #1e1e1e;
+    
+    transition: all 0.5s;
+}
+.morgan a{
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.morgan a:hover{
+    color: #0078ff;
+}
+.blog-item-details p{
+
+    margin: 10px 0;
+    color: #4e4e4e;
+}
+.blog-item-details a:hover{
+
+    color: #0078ff;
+
+   
+}
+.category{
+
+    display: inline-block;
+    padding: 0 15px 5px  ;
+    border-radius:4px  ;
+    background-color: #0078ff;
+    color: #f5f5f5;
+    text-align: center;
+    
+
+    
+    
+    
+}
+.pos
+{
+    
+   
+  
+    text-align: center;
+    
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    
+}
+.category h6{
+   color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .1px;
+    margin-bottom: 0;
+}
+
+.contact{
+    background-image: url(../Images/overlay-bg.jpg);
+}
+
+.contact-form{
+    padding: 0.8rem 0;
+}
+.contact-form input{
+
+     margin: 30px 0;
+}
+.contact-form button{
+    margin-top: 2.5rem ;
+    background-color: #0078ff;
+    color: white;
+    width: 40%;
+    font-size: 2rem;
+    border-radius: 5rem;
+    padding: .9rem 2.3rem;
+    font-size: 1.2rem;
+    border: none;
+}
+.contact-form button:hover{
+    background-color: #0062d3;
+    color: #fff;
+    border: 2px solid #cde1f8;
+}
+.contact-intouch{
+    padding: 0.8rem 0;
+}
+.contact-intouch p{
+    font-size: 1.25rem;
+    color: #4e4e4e;
+    margin: 0;
+}
+.contact-icon ul , .contact-social ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.contact-icon ul li{
+    padding: 5px;
+}
+.contact-icon span{
+
+    margin-right: 10px;
+    color: #0078ff;
+}
+
+.contact-social ul li{
+    padding: 0.8rem 0.25rem;
+}
+.contact-social span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+    color: #1e1e1e;
+    border-radius: 50%;
+    border: 5px solid #0078ff;
+    transition: all 0.5s;
+}
+
+.contact-social span:hover{
+    border: 5px solid #cde1f8;
+    background-color: #0078ff;
+    color: #fff;
+
+}
+
